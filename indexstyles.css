@@ -1,0 +1,40 @@
+body{
+  background-image: url(../images/manos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
+
+div {
+  background-color: rgb(23, 141, 151, 0.9);
+  height: 940px;
+  width: 600px;
+  border-radius: 25px;
+  border-style: double;
+  border-color: white;
+  border-width: thick;
+
+}
+
+h1{
+  font-family: Josefin sans, sans-serif;
+  font-weight: bold;
+  font-size: 150px;
+  text-align: left;
+  padding-left: 20px;
+  color: white;
+}
+
+.textito{
+  padding-left: 20px;
+  font-size: 20px;font-family: varela round, sans-serif;
+  color: white;
+}
+
+.links{
+  font-family: Questrial, sans-serif;
+  font-size: 15px;
+  padding-left: 20px;
+
+  color: white;
+}
