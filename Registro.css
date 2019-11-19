@@ -1,0 +1,44 @@
+body{
+  background-image: url(../Fotomanos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
+.principal{
+  background-color: rgb(23, 141, 151, 0.9);
+  width: 350px;
+  border-radius: 25px;
+  border-style: double;
+  border-color: white;
+  border-width: thick;
+}
+
+input{
+  border-radius: 25px;
+}
+
+select{
+  border-radius: 25px;
+}
+
+button{
+  border-radius: 25px;
+}
+
+h1{
+  font-family: Josefin sans, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: left;
+  padding-left: 20px;
+  color: white;
+  text-align: center;
+}
+
+label{
+  color: white;
+  font-family: varela round, sans-serif;
+}
+.fdn{
+  color: white;
+}
