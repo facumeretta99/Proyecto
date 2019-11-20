@@ -1,0 +1,45 @@
+body{
+  background-image: url(../images/manos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
+.principal{
+  background-color: rgb(23, 141, 151, 0.9);
+  width: 350px;
+  border-radius: 25px;
+  border-style: double;
+  border-color: white;
+  border-width: thick;
+  margin-top: -80px;
+}
+
+input{
+  border-radius: 25px;
+}
+
+select{
+  border-radius: 25px;
+}
+
+button{
+  border-radius: 25px;
+}
+
+h1{
+  font-family: Josefin sans, sans-serif;
+  font-weight: bold;
+  font-size: 150px;
+  margin-left: -1500px;
+  color: white;
+  text-shadow: 4px 4px #badbda;
+  text-align: center;
+}
+
+p{
+  color: white;
+  font-family: varela round, sans-serif;
+}
+.fdn{
+  color: white;
+}

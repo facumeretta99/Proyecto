@@ -22,11 +22,10 @@ h1{
   font-size: 150px;
   text-align: left;
   text-shadow: 4px 4px #badbda;
-  /* padding-left: 75px; */
   color: white;
 }
 
-.textito{
+form{
   padding-top: 60px;
   padding-left: 20px;
   font-size: 20px;font-family: varela round, sans-serif;
@@ -59,7 +58,7 @@ h3{
   padding: 16px 32px;
   font-family: varela round, sans-serif;
   font-size: 16px;
-  margin: 4px 20px;
+  margin: 4px 1px;
   cursor: pointer;
   transition-duration: 0.4s;
 }

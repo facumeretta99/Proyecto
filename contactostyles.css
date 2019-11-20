@@ -1,0 +1,108 @@
+body{
+  background-color: rgb(218, 243, 245);
+}
+
+.titulo{
+  background-color: rgb(23, 141, 151);
+  margin-top: 61px;
+  margin-left: -25px;
+  margin-right: -8px;
+  height: 350px;
+}
+h1{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 700px;
+  font-size: 180px;
+  color: white;
+  text-shadow: 4px 4px #badbda;
+  font-family: Josefin sans, sans-serif;
+}
+
+nav{
+  padding-left: 1600px;
+  margin-top: -61px;
+}
+
+ul {
+  list-style-type: none;
+  height: 350px;
+  background-color: rgb(159, 195, 196);
+  padding: 0px;
+  margin: 0px;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 33.7px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Questrial, sans-serif;
+  font-weight: bold;
+}
+
+
+li a:hover {
+  background-color: rgb(23, 141, 151);
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.pic{
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 80px;
+  padding: 1px;
+  border:12px solid white;
+}
+
+.Patricio{
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 270px;
+  font-size: 30px;
+  font-family: Questrial, sans-serif;
+  color: white;
+}
+
+.perfil{
+  position: absolute;
+  margin-top: 325px;
+  margin-left: 80px;
+  text-decoration: underline;
+  color: white;
+  font-family: Questrial, sans-serif;
+}
+
+.texto{
+  margin-top: 20px;
+  margin-left: 500px;
+  background-color: rgb(23, 141, 151, 0.9);
+  width: 800px;
+  height: 550px;
+  border-radius: 25px;
+  border-style: double;
+  border-color: white;
+  border-width: thick;
+}
+
+p{
+  font-family: varela round, sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+form{
+  font-family: varela Round, sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+.boton{
+  cursor: pointer;
+}
