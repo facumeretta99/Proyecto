@@ -14,9 +14,11 @@ body{
   margin-top: -80px;
 }
 
-input{
-  border-radius: 25px;
+form{
+  margin-left: 20px;
 }
+
+
 
 select{
   border-radius: 25px;
