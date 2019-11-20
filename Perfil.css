@@ -1,0 +1,87 @@
+body{
+  background-image: url(../Fotomanos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
+
+h1{
+  font-family: Josefin sans, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: left;
+  padding-left: 20px;
+  color: rgb(23, 141, 151);
+  text-align: center;
+}
+
+.nav1{
+  overflow: hidden;
+  border-radius: 25px;
+  border-style: double;
+  border-color: white;
+  border-width: thick;
+  background-color: rgb(159, 195, 196);
+}
+
+article{
+  float: left;
+  width: 25%;
+  margin: 20px auto;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 40px;
+}
+
+a{
+  color: white;
+}
+
+.info{
+  overflow: hidden;
+  border-radius: 25px;
+  border-style: double;
+  border-color: white;
+  border-width: thick;
+  background-color: rgb(159, 195, 196);
+}
+
+.infodiv{
+  float: left;
+  width: 33%;
+  margin: 20px auto;
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+}
+
+.nav2{
+  overflow: hidden;
+  border-radius: 25px;
+  border-style: double;
+  border-color: white;
+  border-width: thick;
+  background-color: rgb(159, 195, 196);
+}
+
+.nav22{
+  float: left;
+  width: 50%;
+  margin: 20px auto;
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+}
+
+label{
+  margin: 20px auto;
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+}
+
+textarea{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
