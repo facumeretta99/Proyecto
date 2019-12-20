@@ -1,0 +1,56 @@
+body{
+  background-image: url(../images/manos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1{
+  font-family: Josefin sans, sans-serif;
+  font-size: 150px;
+  color: white;
+  text-shadow: 4px 4px #badbda;
+}
+
+div{
+  background-color: rgb(23, 141, 151, 0.9);
+  margin-top: 200px;
+  margin-left: 10px;
+  margin-right: 1500px;
+  border-style: double;
+  border-color: white;
+  border-radius: 25px;
+
+}
+ p{
+   font-family: Varela round, sans-serif;
+   color: white;
+   margin-left: 20px;
+ }
+
+a{
+  color: white;
+
+
+}
+@media (max-width:768px){
+  body{
+    background-image: url(../images/manos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  h1{
+    text-align: center;
+margin-bottom:0px;
+  }
+  @media (max-width:515px){
+    h1{
+      font-size: 29vw;
+    }
+  }
+  @media (max-width:390px){
+    h1{
+      font-size: 26vw;
+    }
+    }
+  }

@@ -1,0 +1,356 @@
+body{
+  background-color: rgb(218, 243, 245);
+}
+
+.titulo{
+  background-color: rgb(23, 141, 151);
+  margin-top: 300px;
+  margin-left: -25px;
+  margin-right: -8px;
+  height: 350px;
+}
+h1{
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 700px;
+  font-size: 180px;
+  color: white;
+  text-shadow: 4px 4px #badbda;
+  font-family: Josefin sans, sans-serif;
+}
+
+nav{
+  padding-left: 1600px;
+  margin-top: -303px;
+}
+
+ul {
+  list-style-type: none;
+  height: 350px;
+  background-color: rgb(159, 195, 196);
+  padding: 0px;
+  margin: 0px;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 33.7px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Questrial, sans-serif;
+  font-weight: bold;
+}
+
+
+li a:hover {
+  background-color: rgb(23, 141, 151);
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.pic{
+  position: absolute;
+  max-width: 200px;
+  max-height:200px;
+  margin-top: -310px;
+  margin-left: 80px;
+  padding: 1px;
+  border:12px solid white;
+}
+
+.Patricio{
+  margin-left: 80px;
+  margin-top: -70px;
+  font-size: 30px;
+  font-family: Questrial, sans-serif;
+  color: white;
+}
+
+.perfil{
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 80px;
+  text-decoration: underline;
+  color: white;
+  font-family: Questrial, sans-serif;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.lateral{
+  position: absolute;
+  background-color: rgb(159, 195, 196);
+  margin-top: -145px;
+  margin-left: -8px;
+  width: 400px;
+  height: 612px;
+  border-style: double;
+  border-color: white;
+  border-width: thick;
+
+}
+
+.amigos{
+  font-family: Questrial, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  border-style: inset;
+  margin-top: 1px;
+}
+
+.dotal{
+  position: absolute;
+  margin-left: 20px;
+  background-color: #68e310;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotli{
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 20px;
+  background-color: #68e310;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotma{
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 20px;
+  background-color: #68e310;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotto{
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 20px;
+  background-color: #68e310;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.imgal{
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: -80px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.imgli{
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: -20px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.imgma{
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: 40px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.imgto{
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: 100px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.alberto{
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -110px;
+  font-family: varela round, sans-serif;
+  color: white;
+  font-size: 20px;
+
+}
+
+.lila{
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -30px;
+  font-family: varela round, sans-serif;
+  color: white;
+  font-size: 20px;
+
+}
+
+.martin{
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 50px;
+  font-family: varela round, sans-serif;
+  color: white;
+  font-size: 20px;
+
+}
+
+.tomas{
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 130px;
+  font-family: varela round, sans-serif;
+  color: white;
+  font-size: 20px;
+
+}
+
+.buscar{
+  font-family: Questrial, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  border-style: inset;
+  margin-top: 200px;
+}
+
+.lupa{
+  position: absolute;
+  margin-top: -50px;
+}
+
+input{
+  position: absolute;
+  margin-left: 120px;
+  margin-top: -20px;
+}
+
+button{
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 20px;
+  background-color: white;
+  border: none;
+  font-family: Questrial, sans-serif;
+  color: black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #516665;
+  color: white;
+}
+
+.texto{
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: -20px;
+  margin-right: 600px;
+  margin-left: 600px;
+}
+
+h2{
+  font-family: varela round, sans-serif;
+  text-decoration: underline;
+}
+
+p{
+  font-family: varela round, sans-serif;
+}
+
+.boxto{
+  width: 1000px;
+  height: 400px;
+  margin-top: 80px;
+  margin-left: 600px;
+  border-style: groove;
+  background-color: rgba(255, 255, 255);
+  padding: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-family: varela round, sans-serif;
+  position:relative;
+}
+
+.boxli{
+  width: 1000px;
+  height: 480px;
+  margin-top: 80px;
+  margin-left: 600px;
+  border-style: groove;
+  background-color: rgba(255, 255, 255);
+  padding: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-family: varela round, sans-serif;
+  position:relative;
+}
+
+.boxal{
+  width: 1000px;
+  height: 560px;
+  margin-top: 80px;
+  margin-left: 600px;
+  border-style: groove;
+  background-color: rgba(255, 255, 255);
+  padding: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-family: varela round, sans-serif;
+  position:relative;
+}
+
+.postto{
+  position: absolute;
+  margin-left: -100px;
+  margin-top: -20px;
+  border: 5px solid white;
+  cursor: pointer;
+}
+
+.postli{
+  position: absolute;
+  margin-left: 525px;
+  margin-top: 80px;
+  border: 5px solid white;
+  cursor: pointer;
+}
+
+.postal{
+  position: absolute;
+  margin-left: -100px;
+  border: 5px solid white;
+  margin-top: -20px;
+  cursor: pointer;
+}
+
+h5{
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 900px;
+  font-family: Questrial, sans-serif;
+}

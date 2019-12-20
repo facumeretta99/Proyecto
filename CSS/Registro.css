@@ -1,0 +1,111 @@
+body{
+  background-image: url(../images/manos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.principal{
+  background-color: rgb(23, 141, 151, 0.9);
+  width: 350px;
+  border-radius: 25px;
+  border-style: double;
+  border-color: white;
+  border-width: thick;
+  margin-top: -80px;
+}
+
+form{
+  margin-left: 20px;
+}
+
+
+
+select{
+  border-radius: 25px;
+}
+
+button{
+  border-radius: 25px;
+}
+
+h1{
+  font-family: Josefin sans, sans-serif;
+  font-weight: bold;
+  font-size: 150px;
+  margin-left: none;
+  color: white;
+  text-shadow: 4px 4px #badbda;
+  text-align: left;
+}
+
+p{
+  color: white;
+  font-family: varela round, sans-serif;
+}
+.fdn{
+  color: white;
+}
+@media (max-width:768px){
+  body{
+    background-image: url(../images/manos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  h1{
+    text-align: center;
+margin-bottom:0px;
+  }
+  .principal{
+      max-width: 500px;
+      width: 90%;
+      margin:0 auto;
+      height: auto;
+  }
+  input :not([name="sexo"]){
+    display: block;
+    margin: 0px auto;
+  }
+  :not(#dia,#mes,#año){
+    display:block;
+    text-align: center;
+  }
+p{
+  text-align: center;
+}
+form{
+margin-left:0px;
+}
+@media (max-width:515px){
+  h1{
+    font-size: 29vw;
+  }
+}
+
+@media (max-width:390px){
+  h1{
+    font-size: 26vw;
+  }
+  #dia,#mes,#año{
+    display:block;
+    text-align: center;
+  }
+  select{
+    display:block;
+    margin: 0px auto;
+  }
+
+}
+@media (max-width:260px){
+[name="sexo"]{
+  display: block;
+  margin: 0px auto;
+}
+}
+@media (max-width:240px){
+  input{
+    width:90%;
+  }
+  
+}
+
+  }
